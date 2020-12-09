@@ -4,7 +4,7 @@ import time
 time.sleep(1)
 
 if len(sys.argv) > 2:
-  if sys.argv[1] == '-f':
+  if sys.argv[1] == '-r':
     try:
       with open(sys.argv[2]) as file:
         print(file.read(), end="")
