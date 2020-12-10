@@ -10,13 +10,13 @@ if len(sys.argv) > 2:
   option = sys.argv[1]
   if option == '-r' or option == '--read':
     try:
-      with open(parse_quotes(sys.argv[2])) as file:
+      with open(sys.argv[2]) as file:
         print(file.read(), end="")
     except:
       print("ERROR: couldn't read file")
   elif option == '-c' or '--concat': # Write
-    file_to_be_concatenated = open(parse_quotes(sys.argv[2]), "a")
-    file_to_be_concatenated.write(sys.argv[3])
+    file_to_be_concatenated = open(sys.argv[2], "a")
+    file_to_be_concatenated.write(parse_quotes(sys.argv[3]))
     file_to_be_concatenated.close()
   # Include more options
 else:
