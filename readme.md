@@ -3,8 +3,8 @@
 ## Instructions:
 ```bash 
 git clone https://github.com/davibelini/pycat.git
-cd pycat
-cd.> readme.txt
-python pycat.py --concat readme.txt "pycat, readme."
-python pycat.py --read readme.txt
+cd pycat/dist/pycat
+pycat make readme.txt
+pycat concat readme.txt "pycat, readme."
+pycat read readme.txt
 ```
