@@ -1,4 +1,4 @@
-('c:\\Users\\davig\\OneDrive\\Documentos\\Programação\\repoS\\pycat\\build\\pycat\\PYZ-00.pyz',
+('C:\\Users\\davig\\OneDrive\\Documentos\\Programação\\repoS\\pycat\\build\\pycat\\PYZ-00.pyz',
  [('multiprocessing.popen_spawn_posix',
    'c:\\python38\\lib\\multiprocessing\\popen_spawn_posix.py',
    'PYMODULE'),
@@ -122,7 +122,6 @@
    'c:\\python38\\lib\\importlib\\machinery.py',
    'PYMODULE'),
   ('importlib', 'c:\\python38\\lib\\importlib\\__init__.py', 'PYMODULE'),
-  ('importlib.abc', 'c:\\python38\\lib\\importlib\\abc.py', 'PYMODULE'),
   ('importlib._bootstrap',
    'c:\\python38\\lib\\importlib\\_bootstrap.py',
    'PYMODULE'),
@@ -132,6 +131,7 @@
   ('importlib.metadata',
    'c:\\python38\\lib\\importlib\\metadata.py',
    'PYMODULE'),
+  ('importlib.abc', 'c:\\python38\\lib\\importlib\\abc.py', 'PYMODULE'),
   ('configparser', 'c:\\python38\\lib\\configparser.py', 'PYMODULE'),
   ('pathlib', 'c:\\python38\\lib\\pathlib.py', 'PYMODULE'),
   ('csv', 'c:\\python38\\lib\\csv.py', 'PYMODULE'),
@@ -343,6 +343,6 @@
    'c:\\python38\\lib\\multiprocessing\\__init__.py',
    'PYMODULE'),
   ('os', 'c:\\python38\\lib\\os.py', 'PYMODULE'),
+  ('tracemalloc', 'c:\\python38\\lib\\tracemalloc.py', 'PYMODULE'),
   ('_py_abc', 'c:\\python38\\lib\\_py_abc.py', 'PYMODULE'),
-  ('stringprep', 'c:\\python38\\lib\\stringprep.py', 'PYMODULE'),
-  ('tracemalloc', 'c:\\python38\\lib\\tracemalloc.py', 'PYMODULE')])
+  ('stringprep', 'c:\\python38\\lib\\stringprep.py', 'PYMODULE')])
