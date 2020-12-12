@@ -6,7 +6,7 @@ time.sleep(1)
 def parse_quotes(string):
   return string.replace("\"", "")
 
-if len(sys.argv) > 2:
+if len(sys.argv) > 1:
   command = sys.argv[1]
   if command == 'read':
     try:
@@ -24,7 +24,15 @@ if len(sys.argv) > 2:
       f.close()
     except:
       print("ERROR: Could not create file.")
-  # Include more options (INCLUDE -m OR --make TO CREATE FILES)
+  elif command == 'help' or command == '?' or command == "getdocs": 
+    try:
+      docs_file = open("docs.txt", "r")
+      print(docs_file.read())
+    except:
+      print("ERROR: could not print docs file.")
+    finally:
+      docs_file.close()
+  # Include more options
   else:
     print(f"ERROR: option '{sys.argv[1]}' does not exist.")
 else:

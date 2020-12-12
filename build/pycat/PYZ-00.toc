@@ -343,6 +343,6 @@
    'c:\\python38\\lib\\multiprocessing\\__init__.py',
    'PYMODULE'),
   ('os', 'c:\\python38\\lib\\os.py', 'PYMODULE'),
-  ('tracemalloc', 'c:\\python38\\lib\\tracemalloc.py', 'PYMODULE'),
+  ('stringprep', 'c:\\python38\\lib\\stringprep.py', 'PYMODULE'),
   ('_py_abc', 'c:\\python38\\lib\\_py_abc.py', 'PYMODULE'),
-  ('stringprep', 'c:\\python38\\lib\\stringprep.py', 'PYMODULE')])
+  ('tracemalloc', 'c:\\python38\\lib\\tracemalloc.py', 'PYMODULE')])
