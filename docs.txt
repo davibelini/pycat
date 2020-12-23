@@ -1,1 +1,9 @@
-I need to make the docs file
+pycat(2020), author: davibelini, repository: <https://www.github.com/davibelini/pycat>;
+
+Docs >
+    Syntax:
+pycat [command] [option(s)]
+    Commands:
+        read
+        write
+        make
