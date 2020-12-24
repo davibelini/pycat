@@ -1,9 +1,21 @@
-pycat(2020), author: davibelini, repository: <https://www.github.com/davibelini/pycat>;
+...
+
+pycat(2020)
+author: davibelini
+repository: <https://www.github.com/davibelini/pycat>
 
 Docs >
-    Syntax:
-pycat [command] [option(s)]
     Commands:
-        read
-        write
-        make
+        read -> 
+            SYNTAX: pycat read <filepath>
+            DESCRIPTION: prints the content of a readable file to the console.
+        write -> 
+            SYNTAX: pycat write <filepath> "<text>"
+            DESCRIPTION: appends new content to an ascii file.
+        make ->
+            SYNTAX: pycat make <filename>
+            DESCRIPTION: creates an empty file.
+        join ->
+            SYNTAX: pycat join <filepath> <filepath>
+            DESCRIPTION: copies second argument file content to another existing file.
+            

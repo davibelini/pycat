@@ -36,8 +36,6 @@ if len(sys.argv) > 1:
     with open(sys.argv[2], "a") as f:
       f.write(open(sys.argv[3], "r").read())
   else:
-    print(f"ERROR: option '{sys.argv[1]}' does not exist.")
+    print(f"ERROR: option '{sys.argv[1]}' does not exist")
 else:
   print('ERROR: many few arguments')
-
-# TODO: parse "" characters for text
